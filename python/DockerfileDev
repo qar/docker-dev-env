@@ -1,0 +1,5 @@
+FROM python:2.7-alpine
+WORKDIR /data
+COPY ./requirements.txt /data/requirements.txt
+RUN pip install -r requirements.txt
+CMD ["tail", "-f", "/dev/null"]

@@ -1,0 +1,2 @@
+SHELL=\bash
+DEV_IMAGE=python-dev-env
